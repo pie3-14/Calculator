@@ -11,7 +11,8 @@ int main(void) {
 	// 연산자와 피연산자 입력에 쓰는 변수
 	char operator[10];
 	int num1, num2;
-
+	
+	printf("**********Simple Calculator**********\n");
 	while (1) {
 		printf(">>");
 		scanf("%s %d %d", &operator, &num1, &num2 );// 연산자 피연산자를 입력받아 변수에 저장
